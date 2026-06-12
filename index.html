@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ronaldo Melo Photography</title>
+    <!-- Importando a fonte Montserrat do Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header class="header">
+        <div class="logo">
+            <!-- Substitua "seu-logo.png" pelo ficheiro do seu ícone de pássaro -->
+            <img src="logo_01.png" alt="Ícone" class="logo-icon">
+        </div>
+
+        <nav class="navigation">
+            <ul>
+                <li><a href="#" class="active">HOME</a></li>
+                <li><a href="about.html">ABOUT</a></li>
+                
+                <!-- Item com Dropdown: Architecture -->
+                <li class="dropdown">
+                    <a href="#">ARCHITECTURE</a>
+                    <div class="dropdown-content">
+                        <a href="#">All Projects</a>
+                    </div>
+                </li>
+
+                <!-- Item com Dropdown: Products Photo -->
+                <li class="dropdown">
+                    <a href="#">PRODUCTS PHOTO</a>
+                    <div class="dropdown-content">
+                        <a href="#">Objects</a>
+                        <a href="#">Food</a>
+                    </div>
+                </li>
+
+                <!-- Item com Dropdown: Travel Photo -->
+                <li class="dropdown">
+                    <a href="#">TRAVEL PHOTO</a>
+                    <div class="dropdown-content">
+                        <a href="#">Patagonia</a>
+                        <a href="#">Iceland</a>
+                        <a href="#">Chapada Diamantina</a>
+                        <a href="#">Brasilia</a>
+                        <a href="#">Lapinha da Serra</a>
+                        <a href="#">Rio de Janeiro</a>
+                        <a href="#">Conceição do Mato Dentro</a>
+                        <a href="#">Lençóis Maranhenses</a>
+                        <a href="#">South Africa</a>
+                        <a href="#">Various</a>
+                    </div>
+                </li>
+
+                <li><a href="#">CONTACTS</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main class="hero-section">
+        <!-- A primeira imagem do carrossel carregada por padrão -->
+        <img src="https://images.unsplash.com/photo-1513694203232-719a280e022f?q=80&w=2069&auto=format&fit=crop" alt="Foto Principal" class="hero-bg">
+        
+        <!-- Controles do Carrossel (Setas e Pontos dinâmicos) -->
+        <div class="slider-controls">
+            <span class="arrow prev">&#8592;</span>
+            <div class="dots">
+                <!-- O JavaScript irá criar e inserir os pontos aqui automaticamente -->
+            </div>
+            <span class="arrow next">&#8594;</span>
+        </div>
+    </main>
+
+    <!-- Ligação do ficheiro JavaScript para funcionamento do carrossel -->
+    <script src="script.js"></script>
+</body>
+</html>
